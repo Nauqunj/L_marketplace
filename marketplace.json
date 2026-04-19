@@ -1,0 +1,12 @@
+{
+  "name": "L_marketplace",
+  "description": "L_marketplace 插件市场",
+  "plugins": [
+    {
+      "name": "L_dev_pipeline",
+      "description": "开发流水线",
+      "repository": "./L_dev_pipeline",
+      "version": "0.0.1"
+    }
+  ]
+}
