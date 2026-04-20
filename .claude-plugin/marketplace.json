@@ -1,12 +1,16 @@
 {
   "name": "L_marketplace",
   "description": "L_marketplace 插件市场",
+  "owner": {
+    "name": "Nauqunj",
+    "email": ""
+  },
   "plugins": [
     {
       "name": "L_dev_pipeline",
       "description": "开发流水线",
-      "repository": "./L_dev_pipeline",
-      "version": "0.0.1"
+      "version": "0.0.1",
+      "source": "./L_dev_pipeline"
     }
   ]
 }
