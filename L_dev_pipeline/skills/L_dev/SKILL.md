@@ -1,7 +1,7 @@
 ---
 name: L_dev
 description: "完成[需求描述或者bug]的开发，当用户需要开发新的功能或者修复bug时使用。"
-allowed-tools: Read, Bash, Grep, Glob, Git, WebFetch, WebSearch
+allowed-tools: Read, Bash,Edit,Write, Grep, Glob, Git, WebFetch, WebSearch
 context: fork
 agent: split-requirement-and-locate、analyer、implement、verifier
 ---
