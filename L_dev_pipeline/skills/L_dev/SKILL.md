@@ -20,6 +20,7 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 * 呈现多种解释 — 当存在歧义时，不要默默选择
 * 适时提出异议 — 如果存在更简单的方法，说出来
 * 困惑时停下来 — 指出不清楚的地方并要求澄清
+* 不要自己修改需求和问题
 
 ### 简洁优先
 * 用最少的代码解决问题。不要过度推测。
@@ -72,6 +73,7 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 
 ### step 2 分解需求和问题，并且生成报告
 * 参考step 1梳理的系统信息
+* 不要自己修改需求和问题
 * 根据 references/split-requirement-and-locate 的要求和流程，分解需求和问题，生成报告。同时满足开发原则。
 * 写入D:/project/开发cache/[时分秒_时分秒_随机数]/需求分解报告.md
 * [年年_月份_时分秒_随机数] 根据当前时间生成的唯一随机数，确保每个任务的缓存目录都是唯一的。
