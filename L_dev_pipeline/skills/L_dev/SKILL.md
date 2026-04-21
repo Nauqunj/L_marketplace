@@ -2,6 +2,7 @@
 name: L_dev
 description: "完成[需求描述或者bug]的开发，当用户需要开发新的功能或者修复bug时使用。"
 allowed-tools: Read, Bash,Edit,Write, Grep, Glob, Git, WebFetch, WebSearch
+model: opus
 context: fork
 agent: split-requirement-and-locate、analyer、implement、verifier
 ---
@@ -60,19 +61,21 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 ## 流程
 
 ### step 1 分解需求和问题，并且生成报告
-调用split-requirement-and-locate agent，分解需求和问题，生成报告。并写入D:/project/开发cache/[年_月份_时分秒_随机数]/需求分解报告.md
+根据 references/split-requirement-and-locate 的要求和流程，分解需求和问题，生成报告。同时满足开发原则。
+写入D:/project/开发cache/[年_月份_时分秒_随机数]/需求分解报告.md
 [年_月份_时分秒_随机数] 根据当前时间生成的唯一随机数，确保每个任务的缓存目录都是唯一的。
 
 ### step 2 生成技术方案
-把需求分解报告作为输入，调用analyer agent，生成技术方案。
+
+把需求分解报告作为输入，调用 references/analyer 的要求和流程，生成技术方案。同时满足开发原则。
 写入D:/project/开发cache/[年_月份_时分秒_随机数]/技术方案.md
 
 ### step 3 实现功能
-把技术方案作为输入，调用implement agent，实现功能。
+把技术方案作为输入，调用 references/implement 的要求和流程，实现功能。同时满足开发原则。
 写入D:/project/开发cache/[年_月份_时分秒_随机数]/功能实现.md
 
 ### step 4 测试功能
-把功能实现作为输入，调用verifier agent，测试功能。
+把功能实现作为输入，调用 references/verifier 的要求和流程，测试功能。
 写入D:/project/开发cache/[年_月份_时分秒_随机数]/功能测试报告.md
 
 ### step 5 综合所有报告

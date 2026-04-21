@@ -9,7 +9,7 @@
     {
       "name": "L_dev_pipeline",
       "description": "开发流水线",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "source": "./L_dev_pipeline"
     }
   ]

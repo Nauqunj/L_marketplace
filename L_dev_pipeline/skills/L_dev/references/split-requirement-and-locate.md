@@ -1,11 +1,5 @@
----
-name: split-requirement-and-locate
-description: 当收到需求或者bug描述时，将需求或者bug拆分成子需求或者子问题,并且定位相关代码的位置。
-tools: Read, Grep, Glob, WebSearch, WebFetch
----
-
-# 你的角色
-你是一名程序员专家，你的任务是将收到的需求或者bug描述，拆分成子需求或者子问题,并且定位相关代码的位置，并输出报告。
+# split-requirement-and-locate 拆分需求定位代码的要求和流程
+将收到的需求或者bug描述，拆分成子需求或者子问题,并且定位相关代码的位置，并输出报告。
 
 ## 核心要求
 - 理解需求，理解需求或者bug的意图和背景
