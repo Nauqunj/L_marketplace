@@ -14,6 +14,7 @@ allowed-tools: Read, Bash, Grep, Glob, Git, WebFetch, WebSearch
 - 按照功能模块拆分提交，每个提交只包含一个功能模块的变更。
 - 提交风格：需要使用 Conventional Commits。
 - 任何规则：最大 subject 长度、必需的 scope。
+- 不修改代码，修改代码是L_dev 完成的，只提交代码变更。
 
 ## 工作流程（检查清单）
 1) 暂存前检查工作区
