@@ -1,5 +1,5 @@
 ---
-name: git-commit
+name: L-commit
 description: "创建高质量的 git commit：审查/暂存目标变更，拆分为逻辑提交，并编写清晰的 commit message（包括 Conventional Commits）。当用户请求提交、编写 commit message、暂存变更或拆分多个提交时使用。"
 ---
 
