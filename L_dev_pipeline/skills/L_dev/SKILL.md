@@ -1,5 +1,5 @@
 ---
-name: l-dev
+name: L_dev
 description: "完成[需求描述或者bug]的开发，当用户需要开发新的功能或者修复bug时使用。"
 allowed-tools: Read, Bash,Edit,Write, Grep, Glob, Git, WebFetch, WebSearch
 model: opus

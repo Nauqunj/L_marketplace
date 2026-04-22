@@ -7,10 +7,10 @@
   },
   "plugins": [
     {
-      "name": "l-dev-pipeline",
+      "name": "L_dev_pipeline",
       "description": "开发流水线",
-      "version": "0.0.13",
-      "source": "./l-dev-pipeline"
-    }
+      "version": "0.0.14",
+      "source": "./L_dev_pipeline"
+    } 
   ]
 }
