@@ -47,8 +47,11 @@ allowed-tools: Read, Bash, Grep, Glob, Git, WebFetch, WebSearch
    - 在进行下一步之前，运行仓库最快的有意义的检查（unit tests、lint 或 build）
 8) 重复处理下一次提交，直到工作区干净
 
-## 交付物
+9) 交付物
 提供：
 - 最终的 commit message(s)
 - 每次提交的简短摘要（what/why）
 - 用于暂存/审查的命令（至少：`git diff --cached`，以及运行的任何测试）
+
+10) 提交到远程仓库
+   - `git push`
