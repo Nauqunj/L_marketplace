@@ -72,7 +72,7 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 **如果相关系统没有CLAUMD.md文件**，在相关系统根目录下生成一个CLAUMD.md文件。包含了上面的梳理的所有信息，包括系统的架构图，系统的数据流，系统的依赖关系，系统的功能模块，系统的公共组件等。为后续的开发提供参考。
 
 ### step 2 分解需求和问题，并且生成报告
-* 参考step 1梳理的系统信息
+* 等待step 1完成，再参考step 1梳理的系统信息。
 * 不要自己修改需求和问题
 * 根据 references/split-requirement-and-locate 的要求和流程，分解需求和问题，生成报告。同时满足开发原则。
 * 写入D:/project/开发cache/[时分秒_时分秒_随机数]/需求分解报告.md
@@ -80,20 +80,20 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 
 ### step 3 生成技术方案
 * 参考step 1梳理的系统信息
-* 把step 2生成的需求分解报告作为输入，调用 references/analyer 的要求和流程，生成技术方案。同时满足开发原则。
+* 等待step 2完成，再把step 2生成的需求分解报告作为输入，调用 references/analyer 的要求和流程，生成技术方案。同时满足开发原则。
 * 写入D:/project/开发cache/[时分秒_时分秒_随机数]/技术方案.md
 
 ### step 4 实现功能
 * 参考step 1梳理的系统信息
-* 把step 3生成的技术方案作为输入，调用 references/implement 的要求和流程，实现功能。同时满足开发原则。
+* 等待step 3完成，再把step 3生成的技术方案作为输入，调用 references/implement 的要求和流程，实现功能。同时满足开发原则。
 * 写入D:/project/开发cache/[时分秒_时分秒_随机数]/功能实现.md
 
 ### step 5 测试功能
-* 把step 4生成的功能实现.md作为输入，调用 references/verifier 的要求和流程，测试功能。
+* 等待step 4完成，再把step 4生成的功能实现.md作为输入，调用 references/verifier 的要求和流程，测试功能。
 * 写入D:/project/开发cache/[时分秒_时分秒_随机数]/功能测试报告.md
 
 ### step 6 综合所有报告
-* 把需求分解报告、技术方案、功能实现、功能测试报告综合起来，确保需求和问题都完成。
+* 等待上面流程完成，再把需求分解报告、技术方案、功能实现、功能测试报告综合起来，确保需求和问题都完成。
 
 
 
