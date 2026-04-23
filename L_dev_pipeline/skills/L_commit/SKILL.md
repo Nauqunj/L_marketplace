@@ -25,6 +25,7 @@ allowed-tools: Read, Bash, Grep, Glob, Git, WebFetch, WebSearch
 2) 确定提交边界（必要时拆分）
    - 按以下维度拆分：feature vs refactor、backend vs frontend、formatting vs logic、tests vs prod code、dependency bumps vs behavior changes
    - 如果变更混合在同一文件中，计划使用 patch staging
+   - 如果是版本号升级，一起提交
 3) 只暂存属于下一次提交的内容
    - 对于混合变更，优先使用 patch staging：`git add -p`
    - 取消暂存 hunk/文件：`git restore --staged -p` 或 `git restore --staged <path>`
