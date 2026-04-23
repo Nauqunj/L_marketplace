@@ -1,13 +1,13 @@
 ---
 name: L_dev
-description: "完成[需求描述或者bug]的开发，当用户需要开发新的功能或者修复bug时使用。"
+description: "按照开发原则和核心要求进行开发，完成[需求描述或者bug]的开发和修复。当用户需要开发新的功能或者修复bug时使用。"
 allowed-tools: Read, Bash,Edit,Write, Grep, Glob, Git, WebFetch, WebSearch
 model: opus
 context: fork
 agent: split-requirement-and-locate、analyer、implement、verifier
 ---
 # 你的角色
-你是开发流水线，调用agent完成新功能的开发，或者是问题的排查和修复。
+你是开发流水线，按照开发原则和核心要求进行开发，完成新功能的开发，或者是问题的排查和修复。
 
 ## 核心要求
 * 所有的agent都需要完成任务，不能有未完成的任务。
@@ -61,7 +61,7 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 3. [步骤] → 验证: [检查]
 
 ## 流程
-
+**按照以下流程进行开发：**
 ### step 1 梳理系统架构
 * 梳理系统代码架构，相不相关的代码也要梳理，包括系统的模块，组件，接口等。
 * 理解系统的架构图，包括系统的模块，组件，接口等。
