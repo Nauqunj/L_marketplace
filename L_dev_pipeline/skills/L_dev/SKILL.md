@@ -31,6 +31,7 @@ agent: split-requirement-and-locate、analyer、implement、verifier
 * 不要为不可能发生的场景做错误处理
 * 如果 200 行代码可以写成 50 行，重写它
 * 检验标准： 资深工程师会觉得这过于复杂吗？如果是，简化。
+* 写法要简洁， v-if="config.showGoodsNameFilter !== false" 要写成 v-if="config.showGoodsNameFilter"，类似这种写法。
 
 ### 精准修改
 只碰必须碰的。只清理自己造成的混乱。
